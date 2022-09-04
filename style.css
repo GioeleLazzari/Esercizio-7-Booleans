@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.giappone{
+    background-image: url(Giappone.jpeg);
+    height: 25vh;
+    background-size: cover;
+    position: relative;
+}
+
+.layover{
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.testo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.roma{
+    background-image: url(Roma.jpeg);
+    height: 25vh;
+    background-size: cover;
+    position: relative;
+}
+
+
+.usa{
+    background-image: url(Usa.jpg);
+    height: 25vh;
+    background-size: cover;
+    position: relative;
+}
+
+.spagna{
+    background-image: url(Spagna.jpg);
+    height: 25vh;
+    background-size: cover;
+    position: relative;
+}
